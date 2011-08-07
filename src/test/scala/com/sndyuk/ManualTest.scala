@@ -1,4 +1,4 @@
-package com.sndyuk.onomik
+package com.sndyuk
 
 import org.mortbay.jetty.Connector
 import org.mortbay.jetty.Server

@@ -1,0 +1,6 @@
+mvn eclipse:eclipse
+
+install H2DB
+connect jdbc:h2:tcp://localhost/~/sample
+
+run com.sndyuk.ManualTest.scala
