@@ -57,6 +57,7 @@ class App extends WebApplication {
     getApplicationSettings.setPageExpiredErrorPage(classOf[ExpiredPage])
 
     mount(new HybridUrlCodingStrategy("/error", classOf[ErrorPage]))
+    mountBookmarkablePage("/sitemap.xml", classOf[SitemapPage]);
   }
 
   override def newRequestCycleProcessor = {

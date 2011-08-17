@@ -1,0 +1,8 @@
+<ehcache>
+	<defaultCache name="defaut" maxElementsInMemory="5"
+		eternal="false" timeToIdleSeconds="20" timeToLiveSeconds="20"
+		overflowToDisk="false" diskPersistent="false"
+		memoryStoreEvictionPolicy="LRU" />
+	<cache name="SimplePageCachingFilter" overflowToDisk="true"
+		maxElementsInMemory="0" timeToLiveSeconds="43200" timeToIdleSeconds="43200" />
+</ehcache>
